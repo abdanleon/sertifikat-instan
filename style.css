@@ -3,7 +3,7 @@ body {font-family: 'Google Sans', sans-serif; background-color: #ddd; color: #11
 .container {max-width: 900px; margin: 0 auto;}
 h1 {text-align: center; margin: 0 0 5px; color: #111; font-size: 2rem;}
 p {text-align: center; margin: 0 0 30px; color: #111;}
-a {text-align: center; color: #059669; text-decoration: none;}
+a {text-align: center; color: #006545; text-decoration: none;}
 a:hover {text-decoration: underline;}
 
 /* Form Input Panel */
