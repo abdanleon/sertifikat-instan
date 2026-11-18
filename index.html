@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat Instan</title>
+    <!-- Google Fonts: Google Sans & Great Vibes -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Pustaka html2canvas untuk mengambil screenshot elemen HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sertifikat Instan</h1>
+        <p>Edit, Unduh, Bagikan</p>
+
+        <!-- Form Input -->
+        <div class="form-panel">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="inputName">Nama Penerima</label>
+                    <input type="text" id="inputName" placeholder="Ketik Disini..">
+                </div>
+                <div class="form-group">
+                    <label for="inputEvent">Nama Kegiatan/Acara</label>
+                    <input type="text" id="inputEvent" placeholder="Ketik Disini..">
+                </div>
+                <div class="form-group full">
+                    <label for="inputDesc">Keterangan/Deskripsi</label>
+                    <input type="text" id="inputDesc" placeholder="Ketik Disini..">
+                </div>
+                <div class="form-group">
+                    <label for="inputDate">Tanggal</label>
+                    <input type="text" id="inputDate" placeholder="Ketik Disini..">
+                </div>
+                <div class="form-group">
+                    <label for="inputSigner">Nama Penandatangan</label>
+                    <input type="text" id="inputSigner" placeholder="Ketik Disini..">
+                </div>
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn-download" id="btnDownload">Unduh Sertifikat</button>
+                <p class="btn-note">100% Gratis, Tanpa Watermark, Gambar HD</p>
+            </div>
+        </div>
+
+        <!-- Preview Sertifikat -->
+        <h1 style="margin-bottom: 20px; font-size: 1rem;">Tampilan Sertifikat</h1>
+        <div class="certificate-preview-wrapper">
+            <div class="certificate" id="certificateCard">
+                <div class="cert-header">
+                    <div class="cert-title">Sertifikat</div>
+                    <div class="cert-subtitle" id="previewEvent">Nama Kegiatan/Acara</div>
+                </div>
+                
+                <div class="cert-body">
+                    <div class="cert-presented">Diberikan kepada :</div>
+                    <div class="cert-name" id="previewName">Nama Penerima</div>
+                    <div class="cert-reason" id="previewDesc">Keterangan/Deskripsi</div>
+                </div>
+                
+                <div class="cert-footer">
+                    <div class="signature-box">
+                        <img src="https://cdn.pixabay.com/photo/2020/06/04/08/50/awesome-5257905_1280.png" alt="Stempel" class="cert-stamp" crossorigin="anonymous">
+                        <div style="font-size: 0.8rem; color: #111;" id="previewDate">Tanggal</div>
+                    </div>
+                    <div class="signature-box">
+                        <div class="sig-script" id="previewSignature">Nama Penandatangan</div>
+                        <div class="sig-line"></div>
+                        <div class="sig-name" id="previewSigner">Nama Penandatangan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="margin: 30px 0 0; font-size: 0.7rem;">Dibuat oleh <a href="https://abdanleon.blogspot.com/" target="_blank">Abdan Leon</a> dan Google Gemini</p>
+    </div>
+</body>
+</html>
