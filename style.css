@@ -1,7 +1,7 @@
 * {box-sizing: border-box; margin: 0; padding: 0;}
 body {font-family: 'Google Sans', sans-serif; background-color: #ddd; color: #111; padding: 40px 20px; font-size: 1rem;}
 .container {max-width: 900px; margin: 0 auto;}
-h1 {text-align: center; margin: 0 0 5px; color: #111; font-size: 2rem;}
+h1 {text-align: center; margin: 0 0 5px; color: #111; font-size: 1.5rem; text-transform: uppercase;}
 p {text-align: center; margin: 0 0 30px; color: #111;}
 a {text-align: center; color: #006545; text-decoration: none;}
 a:hover {text-decoration: underline;}
@@ -18,7 +18,7 @@ input:focus {border-color: #10b981; box-shadow: 0px 0px 10px 0px rgba(200,200,20
 
 /* Tombol Aksi */
 .btn-container {margin-top: 25px; text-align: center;}
-.btn-download {background-color: #10b981; color: white; border: none; padding: 12px 24px 10px; font-size: 1rem; font-weight: 600; border-radius: 10px; cursor: pointer; transition: background-color 0.2s;}
+.btn-download {background-color: #10b981; color: white; border: none; padding: 10px 15px; font-size: 1rem; font-weight: 600; border-radius: 10px; cursor: pointer; transition: background-color 0.2s;}
 .btn-download:hover {background-color: #059669;}
 .btn-download:disabled {background-color: #9ca3af; cursor: not-allowed;}
 .btn-note {margin: 10px 0 0; font-size: 0.7rem; color: #111;}
@@ -28,10 +28,10 @@ input:focus {border-color: #10b981; box-shadow: 0px 0px 10px 0px rgba(200,200,20
 .certificate {width: 842px; min-width: 842px; aspect-ratio: 1.414 / 1; background: #ffffff; padding: 50px 60px; display: flex; flex-direction: column; justify-content: space-between; text-align: center; position: relative; color: #111;}
 .certificate::before {content: ''; position: absolute; top: 20px; left: 20px; right: 20px; bottom: 20px; border: 1px solid #ccc; pointer-events: none; border-radius: 10px;}
 .cert-header {margin-top: 10px;}
-.cert-title {font-family: 'Google Sans', sans-serif; font-size: 2.2rem; font-weight: 700; color: #111; text-transform: uppercase; margin-bottom: 8px;}
+.cert-title {font-family: 'Google Sans', sans-serif; font-size: 2.2rem; font-weight: 700; color: #111; text-transform: uppercase; margin-bottom: 10px;}
 .cert-subtitle {font-size: 0.9rem; color: #111; text-transform: uppercase;}
 .cert-body {margin: 20px 0;}
-.cert-presented {font-size: 0.95rem; color: #111; margin-bottom: 10px;}
+.cert-presented {font-size: 0.95rem; color: #111; margin-bottom: 20px;}
 .cert-name {font-family: 'Google Sans', sans-serif; font-size: 2.5rem; font-weight: 700; color: #111; display: inline-block; margin-bottom: 20px; max-width: 100%; word-break: break-word;}
 .cert-reason {font-size: 0.95rem; color: #111; line-height: 1.6; max-width: 600px; margin: 0 auto;}
 .cert-footer {display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px; padding: 0 40px;}
