@@ -8,4 +8,4 @@ Buat sertifikat minimalis secara cepat dan aman. Cocok untuk sertifikat seminar,
 - File sertifikat akan tersimpan dalam bentuk PNG.
 
 # Contoh Sertifikat
-<img src="https://raw.githubusercontent.com/abdanleon/sertifikat-instan/refs/heads/main/image/example.png"/>
+<img src="https://raw.githubusercontent.com/abdanleon/sertifikat-instan/refs/heads/main/example.png"/>
