@@ -1,5 +1,5 @@
 # Sertifikat Instan
-Website pembuat sertifikat minimalis. Cocok untuk sertifikat seminar, webinar, volunteer, magang, dan lain-lain.
+Website pembuat sertifikat minimalis yang praktis dan aman digunakan. Cocok untuk sertifikat seminar, webinar, volunteer, magang, dan lain-lain.
 
 # Cara Pakai
 - Tulis isi sertifikat di kolom edit.
